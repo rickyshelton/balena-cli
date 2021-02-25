@@ -1,4 +1,4 @@
-FROM ubuntu:groovy
+FROM ubuntu:bionic
 
 WORKDIR /opt
 
