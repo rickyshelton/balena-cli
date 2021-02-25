@@ -14,3 +14,5 @@ RUN apt update && \
 ENV PATH="/opt/balena-cli:${PATH}"
 
 WORKDIR /usr/src
+
+CMD ["/bin/bash"]
