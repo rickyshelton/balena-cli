@@ -4,7 +4,7 @@ WORKDIR /opt
 
 RUN apt update && \
     apt upgrade -y && \
-    apt install wget unzip git -y && \
+    apt install wget unzip git sudo -y && \
     wget https://github.com/balena-io/balena-cli/releases/download/v12.40.2/balena-cli-v12.40.2-linux-x64-standalone.zip && \
     unzip balena-cli-v12.40.2-linux-x64-standalone.zip && \
     rm balena-cli-v12.40.2-linux-x64-standalone.zip && \
